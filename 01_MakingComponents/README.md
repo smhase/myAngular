@@ -23,3 +23,8 @@ To use different names for the elements that we are passing
 ## Disabling Encapsulation
 
 To make css and other things apply globally
+
+## There are 3 ways of passing html form values to the ts
+1. Using 2 way data binding
+2. using local variable and passing it to the function from html to ts
+3. Using local variable and @ViewChild to get those variable to ts from html.

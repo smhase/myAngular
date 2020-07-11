@@ -2,13 +2,13 @@
     <div class="col-xs-12">
         <p>Add new Servers or blueprints!</p>
         <label>Server Name</label>
-        <input type="text" class="form-control"#newServerName>
+        <input type="text" class="form-control"#serverNameInput>
         <!--This is to send as local variable -->
         <label>Server Content</label>
-        <input type="text" class="form-control" #newServerContent>
+        <input type="text" class="form-control" #serverContentInput>
         <!-- This is to send as local variable -->
         <br>
-        <button class="btn btn-primary" (click)="onAddServer(newServerName,newServerContent)">Add Server</button>
-        <button class="btn btn-primary" (click)="onAddBlueprint(newServerName,newServerContent)">Add Server Blueprint</button>
+        <button class="btn btn-primary" (click)="onAddServer()">Add Server</button>
+        <button class="btn btn-primary" (click)="onAddBlueprint()">Add Server Blueprint</button>
     </div>
 </div>
