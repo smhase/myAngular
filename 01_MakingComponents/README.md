@@ -4,12 +4,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## @Input decorator
 
-Used to take input into an element/array from other component.
+Used to take input into an element/array from parent component.
 Look at app.component and app-server.conmponent
 
 ## @Output decorator
 
-Used to take emit and event give the data the other component viz parent.
+Used to take emit and event give the data to parent componenet.
 Look at app.component and cockpit.conmponent
 
 ## Evemts Emitter
