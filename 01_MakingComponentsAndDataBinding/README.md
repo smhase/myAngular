@@ -28,3 +28,8 @@ To make css and other things apply globally
 1. Using 2 way data binding
 2. using local variable and passing it to the function from html to ts
 3. Using local variable and @ViewChild to get those variable to ts from html.
+
+## ng-content
+It is used to have HTML element passed down to the child. 
+By default everything inside the child tag used in parent will be lost
+But if you use ng-content it will stay.
